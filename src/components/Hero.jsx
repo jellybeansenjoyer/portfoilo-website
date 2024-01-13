@@ -1,7 +1,6 @@
-import React from 'react'
 import {motion} from 'framer-motion';
 import {styles} from '../styles'
-import { ComputersCanvas } from './canvas';
+import  {ComputersCanvas}  from './canvas';
 import texts from '../assets/texts';
 
 const Hero = () => {
@@ -14,10 +13,11 @@ const Hero = () => {
           </div>
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}> Hi, I'm <span className='text-[#915eff]'>{texts.name}</span></h1>
-            <p className={`${styles.heroSubText} mt-2 text-white-100`}>{texts.description}</p> //add line break for scaling
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>{texts.description}</p> 
           </div>
         </div>
-        <ComputersCanvas/>
+          <ComputersCanvas/>
+         
     </section>
   )
 }
