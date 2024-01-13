@@ -21,6 +21,9 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      flex:{
+        row: '0 1 auto',
+      }
     },
   },
   plugins: [],
